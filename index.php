@@ -1,3 +1,5 @@
 <?php
-echo json_encode(array("result"=>"success",data=>()));
+function getResponse(){
+echo json_encode(array("result"=>"success","data"=>array()));
+}
 ?>
